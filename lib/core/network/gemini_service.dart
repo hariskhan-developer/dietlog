@@ -11,9 +11,9 @@ final _log = AppLogger('GeminiService');
 
 class GeminiService {
   static const String _baseUrl =
-      'https://generativelanguage.googleapis.com/v1beta';
+      'https://generativelanguage.googleapis.com/v1';
 
-  static const String _model = 'gemini-1.5-flash';
+  static const String _model = 'gemini-1.5-flash-latest';
 
   final Dio _dio;
 
